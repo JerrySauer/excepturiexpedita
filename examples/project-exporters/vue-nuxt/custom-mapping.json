@@ -1,0 +1,15 @@
+{
+  "elements": {
+    "Datepicker": {
+      "type": "Datepicker",
+      "dependency": {
+        "type": "package",
+        "path": "vuejs-datepicker",
+        "version": "1.5.4",
+        "meta": {
+          "namedImport": false
+        }
+      }
+    }
+  }
+}

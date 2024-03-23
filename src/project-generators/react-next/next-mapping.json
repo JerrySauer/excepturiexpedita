@@ -1,0 +1,21 @@
+{
+  "elements": {
+    "navlink": {
+      "type": "Link",
+      "dependency": {
+          "type": "library",
+          "path": "next/link"
+      },
+      "attrs": {
+        "href": "$attrs.transitionTo"
+      },
+      "children": [
+        {
+          "type": "a",
+          "name": "link",
+          "children": ["$children"]
+        }
+      ]
+    }
+  }
+}

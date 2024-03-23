@@ -1,0 +1,10 @@
+{
+  "elements": {
+    "slot": {
+      "type": "slot"
+    }
+  },
+  "events": {
+    "click": "click"
+  }
+}
